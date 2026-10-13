@@ -1,0 +1,136 @@
+base_path: './data'
+sources:
+  - filename: 'natural_hazards.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_5c967f69-11af-4eff-bc86-ebddfd95a578/climsight_data/natural_hazards.zip?temp_url_sig=b415d6d7e20721e1fea3c9e42e6238d12c1b32fa&temp_url_expires=2034-04-30T12:43:59Z'
+    archive_type: 'zip'
+    subdir: 'natural_hazards'
+    citation: 
+      - 'The GDIS data descriptor: Rosvold, E.L., Buhaug, H. GDIS, a global dataset of geocoded disaster locations. Sci Data 8, 61 (2021). https://doi.org/10.1038/s41597-021-00846-6'
+      - 'The GDIS dataset: Rosvold, E. and H. Buhaug. 2021. Geocoded disaster (GDIS) dataset. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). https://doi.org/10.7927/zz3b-8y61 , Accessed 02 May 2024.'
+      - 'The EM-DAT dataset: Guha-Sapir, Debarati, Below, Regina, & Hoyois, Philippe (2014). EM-DAT: International disaster database. Centre for Research on the Epidemiology of Disasters (CRED).'
+
+  - filename: 'population.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_5c967f69-11af-4eff-bc86-ebddfd95a578/climsight_data/population.zip?temp_url_sig=e7825fe96cf47463a3198d9c5f5785c4b0c155dc&temp_url_expires=2034-04-30T12:43:05Z'
+    archive_type: 'zip'
+    subdir: 'population'
+    citation: 
+      - 'United Nations, Department of Economic and Social Affairs, Population Division (2022). World Population Prospects 2022, Online Edition.'      
+
+  - filename: 'ne_10m_coastline.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_coastline.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/coastlines'
+    citation:     
+
+  - filename: 'ne_10m_land.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_land.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/land'
+    citation:     
+
+  - filename: 'ne_10m_rivers_lake_centerlines.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/rivers'
+    citation:     
+
+  - filename: 'ne_10m_rivers_australia.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_australia.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/rivers'
+    citation:     
+
+  - filename: 'ne_10m_rivers_europe.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_europe.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/rivers'
+    citation:     
+
+  - filename: 'ne_10m_rivers_north_america.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_north_america.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/rivers'
+    citation:     
+
+  - filename: 'ne_10m_lakes.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/lakes'
+    citation:     
+
+  - filename: 'ne_10m_lakes_australia.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes_australia.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/lakes'
+    citation:     
+
+  - filename: 'ne_10m_lakes_europe.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes_europe.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/lakes'
+    citation:     
+
+  - filename: 'ne_10m_lakes_north_america.zip'
+    url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes_north_america.zip'
+    archive_type: 'zip'
+    subdir: 'natural_earth/lakes'
+    citation:     
+
+  - filename: 'ipcc_text_reports.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_035d8f6ff058403bb42f8302e6badfbc/climsight/ipcc_text_reports.zip?temp_url_sig=cc3ed2934f91d5296266e217c7d1f479e129cb4a&temp_url_expires=2034-08-02T11:15:22Z'
+    archive_type: 'zip'
+    subdir: 'ipcc_text_reports'
+    citation: 
+      - 'https://plaintextipcc.com/'
+      - 'IPCC, 2022: Climate Change 2022: Impacts, Adaptation, and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [H.-O. Pörtner, D.C. Roberts, M. Tignor, E.S. Poloczanska, K. Mintenbeck, A. Alegría, M. Craig, S. Langsdorf, S. Löschke, V. Möller, A. Okem, B. Rama (eds.)]. Cambridge University Press. Cambridge University Press, Cambridge, UK and New York, NY, USA, 3056 pp., doi:10.1017/9781009325844.'
+      - 'IPCC, 2022: Summary for Policymakers [H.-O. Pörtner, D.C. Roberts, E.S. Poloczanska, K. Mintenbeck, M. Tignor, A. Alegría, M. Craig, S. Langsdorf, S. Löschke, V. Möller, A. Okem (eds.)]. In: Climate Change 2022: Impacts, Adaptation, and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [H.-O. Pörtner, D.C. Roberts, M. Tignor, E.S. Poloczanska, K. Mintenbeck, A. Alegría, M. Craig, S. Langsdorf, S. Löschke, V. Möller, A. Okem, B. Rama (eds.)]. Cambridge University Press, Cambridge, UK and New York, NY, USA, pp. 3-33, doi:10.1017/9781009325844.001.'
+      - 'Pörtner, H.-O., D.C. Roberts, H. Adams, I. Adelekan, C. Adler, R. Adrian, P. Aldunce, E. Ali, B. Bednar- Friedl, R.A. Begum, R. Bezner Kerr, R. Biesbroek, J. Birkmann, K. Bowen, M.A. Caretta, J. Carnicer, E. Castellanos, T.S. Cheong, W. Chow, G. Cissé, S. Clayton, A. Constable, S.R. Cooley, M.J. Costello, M. Craig, W. Cramer, R. Dawson, D. Dodman, J. Efitre, M. Garschagen, E.A. Gilmore, B.C. Glavovic, D. Gutzler, M. Haasnoot, S. Harper, T. Hasegawa, B. Hayward, J.A. Hicke, Y. Hirabayashi, C. Huang, K. Kalaba, W. Kiessling, A. Kitoh, R. Lasco, J. Lawrence, M.F. Lemos, R. Lempert, C. Lennard, D. Ley, T. Lissner, Q. Liu, E. Liwenga, S. Lluch-Cota, S. Löschke, S. Lucatello, Y. Luo, B. Mackey, K. Mintenbeck, A. Mirzabaev, V. Möller, M. Moncassim Vale, M.D. Morecroft, L. Mortsch, A. Mukherji, T. Mustonen, M. Mycoo, J. Nalau, M. New, A. Okem, J.P. Ometto, B. O’Neill, R. Pandey, C. Parmesan, M. Pelling, P.F. Pinho, J. Pinnegar, E.S. Poloczanska, A. Prakash, B. Preston, M.-F. Racault, D. Reckien, A. Revi, S.K. Rose, E.L.F. Schipper, D.N. Schmidt, D. Schoeman, R. Shaw, N.P. Simpson, C. Singh, W. Solecki, L. Stringer, E. Totin, C.H. Trisos, Y. Trisurat, M. van Aalst, D. Viner, M. Wairiu, R. Warren, P. Wester, D. Wrathall, and Z. Zaiton Ibrahim, 2022: Technical Summary. [H.-O. Pörtner, D.C. Roberts, E.S. Poloczanska, K. Mintenbeck, M. Tignor, A. Alegría, M. Craig, S. Langsdorf, S. Löschke, V. Möller, A. Okem (eds.)]. In: Climate Change 2022: Impacts, Adaptation, and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [H.-O. Pörtner, D.C. Roberts, M. Tignor, E.S. Poloczanska, K. Mintenbeck, A. Alegría, M. Craig, S. Langsdorf, S. Löschke, V. Möller, A. Okem, B. Rama (eds.)]. Cambridge University Press, Cambridge, UK and New York, NY, USA, pp. 37-118, doi:10.1017/9781009325844.002.'
+
+  - filename: 'embedded_chunks_db_openai.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_035d8f6ff058403bb42f8302e6badfbc/climsight/embedded_chunks_db_openai.zip?temp_url_sig=f26bac15ad3d356e41e060d8fcfd2d54b7542283&temp_url_expires=4763-05-24T12:33:21Z'
+    archive_type: 'zip'
+    subdir: '../rag_db'
+    citation:   
+
+  - filename: 'rag_articles.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_035d8f6ff058403bb42f8302e6badfbc/climsight/rag_articles.zip?temp_url_sig=99f288fd7404ab21d59dbbfff2494ffeccabb470&temp_url_expires=2298-09-09T09:58:53Z'
+    archive_type: 'zip'
+    subdir: '../rag_articles'
+    citation:
+
+  - filename: 'era5.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_035d8f6ff058403bb42f8302e6badfbc/climsight/era5.zip?temp_url_sig=127206ebc51d2cc852b3014e3cf60a854ca81ace&temp_url_expires=2028-12-06T12:15:57Z'
+    archive_type: 'zip'
+    subdir: './'
+    citation: 
+      - 'Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, A., Soci, C., Dee, D., Thépaut, J-N. (2023): ERA5 hourly data on single levels from 1940 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), DOI: 10.24381/cds.adbb2d47'   
+
+  - filename: 'IFS_9-FESOM_5-production.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_035d8f6ff058403bb42f8302e6badfbc/climsight/IFS_9-FESOM_5-production.zip?temp_url_sig=a1a35fa70616d2bfed5adc3f2e8b52f194a9daf0&temp_url_expires=2036-01-19T12:25:52Z'
+    archive_type: 'zip'
+    subdir: './'
+    citation:     
+  
+  - filename: 'ecocrop.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_035d8f6ff058403bb42f8302e6badfbc/climsight/ecocrop.zip?temp_url_sig=e7a4b9c7e8cdd5d01e86b399d24ec851769fc174&temp_url_expires=2052-04-21T10:46:16Z'
+    archive_type: 'zip'
+    subdir: './'
+    citation: Brown, M. J., Redhead, J., Pywell, R., & Price, J. EcoCrop Climatic Crop Suitability Scoring [Computer software]. https://github.com/OpenCLIM/ecocrop
+  
+  - filename: 'ICCP.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_035d8f6ff058403bb42f8302e6badfbc/climsight/ICCP.zip?temp_url_sig=97b8206f6b9d82e1c5a0e59d201433019415000d&temp_url_expires=2299-10-02T09:27:14Z'
+    archive_type: 'zip'
+    subdir: './'
+    citation:  
+
+  - filename: 'awi_cm.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_035d8f6ff058403bb42f8302e6badfbc/climsight/awi_cm.zip?temp_url_sig=f40cc2f349b24482a6f7247d173ca194fad28950&temp_url_expires=2299-10-02T09:52:13Z'
+    archive_type: 'zip'
+    subdir: './'
+    citation:      
+
+  - filename: 'DestinE.zip'
+    url: 'https://swift.dkrz.de/v1/dkrz_035d8f6ff058403bb42f8302e6badfbc/climsight/DestinE.zip?temp_url_sig=f60ad2be0bf65479f489611255c066148dc4741c&temp_url_expires=2053-06-19T11:20:40Z'
+    archive_type: 'zip'
+    subdir: './'
+    citation:      
