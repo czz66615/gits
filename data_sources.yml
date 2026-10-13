@@ -1,4 +1,4 @@
-base_path: './data'
+base_path: './data/new'
 sources:
   - filename: 'natural_hazards.zip'
     url: 'https://swift.dkrz.de/v1/dkrz_5c967f69-11af-4eff-bc86-ebddfd95a578/climsight_data/natural_hazards.zip?temp_url_sig=b415d6d7e20721e1fea3c9e42e6238d12c1b32fa&temp_url_expires=2034-04-30T12:43:59Z'
